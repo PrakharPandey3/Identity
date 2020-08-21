@@ -1,0 +1,40 @@
+h1{
+    color:red
+}
+/* *{border-style:dotted} */
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p, h2{
+    text-align: center;
+    background-color: azure;
+}
+.fotter{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-image: url("6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: blue;
+}
+h2{
+    color: chocolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+}
